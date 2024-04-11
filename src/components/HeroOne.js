@@ -19,7 +19,7 @@ export default function HeroOne() {
                 <TypeAnimation
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
-                    "Dennis Scott",
+                    "sadaf",
                     1000, // wait 1s before replacing "Mice" with "Hamsters"
                     "Website Designer",
                     1000,

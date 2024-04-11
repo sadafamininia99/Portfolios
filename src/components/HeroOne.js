@@ -20,12 +20,8 @@ export default function HeroOne() {
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
                     "sadaf",
-                    1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    "Website Designer",
                     1000,
                     "Web Developer",
-                    1000,
-                    "UI/UX Designer",
                     1000,
                   ]}
                   wrapper="span"
@@ -43,8 +39,11 @@ export default function HeroOne() {
                 </span>
               </h4>
               <p className="text-slate-400 max-w-xl">
-                Obviously I'm a Web Designer. Web Developer with over 7 years of
-                experience. Experienced with all stages of the development.
+                Highly motivated and ambitious front-end developer with 4 years
+                of experience in developing such as JavaScript, React, Next.js,
+                HTML, CSS, Sass, and Styled Components to build visually
+                appealing and functional user interfaces. Familiar with Agile
+                methodologies and have a history of meeting project deadlines.
               </p>
 
               <div className="mt-6">
@@ -73,7 +72,7 @@ export default function HeroOne() {
                     <CountUp
                       start={7}
                       className="counter-value"
-                      end={180}
+                      end={100}
                       duration={2.75}
                     />
                   </span>
@@ -85,7 +84,7 @@ export default function HeroOne() {
               </div>
 
               <div className="absolute lg:top-80 md:top-56 top-48 ltr:md:-right-0 ltr:right-2 rtl:md:-left-0 rtl:left-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                <h6 className="font-semibold">Web Designer</h6>
+                <h6 className="font-semibold">Web Developer</h6>
                 <h6 className="text-sm text-slate-400 mt-1">
                   4+ Years Experience
                 </h6>

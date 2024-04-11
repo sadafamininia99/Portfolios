@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import HeroOne from "../components/HeroOne";
 import AboutUs from "../components/AboutUs";
@@ -11,24 +11,24 @@ import GetInTouch from "../components/GetInTouch";
 import Footer from "../components/Footer";
 import Clients from "../components/Clients";
 
-export default function Index(){
-    useEffect(() => {
-        document.documentElement.setAttribute("dir", "ltr");
-        document.documentElement.classList.add('light');
-      }, []);
-    return(
-        <>
-            <Navbar/>
-            <HeroOne/>
-            <AboutUs/>
-            <Services/>
-            <CTABanner/>
-            <Experience/>
-            <Projects/>
-            <Clients/>  
-            <Blogs/>
-            <GetInTouch/>
-            <Footer/>
-        </>
-    )
+export default function Index() {
+  useEffect(() => {
+    document.documentElement.setAttribute("dir", "ltr");
+    document.documentElement.classList.add("light");
+  }, []);
+  return (
+    <>
+      <Navbar />
+      <HeroOne />
+      {/* <AboutUs/> */}
+      <Services />
+      <CTABanner />
+      <Experience />
+      <Projects />
+      <Clients />
+      <Blogs />
+      <GetInTouch />
+      <Footer />
+    </>
+  );
 }

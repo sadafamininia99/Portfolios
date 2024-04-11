@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import AboutUs from "../components/AboutUs";
 import Services from "../components/Service";
 import CTABanner from "../components/CTABanner";
@@ -11,25 +11,24 @@ import HeroThree from "../components/HeroThree";
 import NavbarLight from "../components/NavbarLight";
 import Clients from "../components/Clients";
 
-export default function IndexThree(){
-    useEffect(() => {
-        document.documentElement.setAttribute("dir", "ltr");
-        document.documentElement.classList.add('light');
-      }, []);
-    return(
-        <>
-            <NavbarLight/>
-            <HeroThree/>
-            <AboutUs/>
-            <Services/>
-            <CTABanner/>
-            <Experience/>
-            <Projects/>
-            <Clients/>  
-            <Blogs/>
-            <GetInTouch/>
-            <Footer/>
-            
-        </>
-    )
+export default function IndexThree() {
+  useEffect(() => {
+    document.documentElement.setAttribute("dir", "ltr");
+    document.documentElement.classList.add("light");
+  }, []);
+  return (
+    <>
+      <NavbarLight />
+      <HeroThree />
+      {/* <AboutUs/> */}
+      <Services />
+      <CTABanner />
+      <Experience />
+      <Projects />
+      <Clients />
+      <Blogs />
+      <GetInTouch />
+      <Footer />
+    </>
+  );
 }
